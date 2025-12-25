@@ -16,5 +16,12 @@ The granularity of this dataset is one movie/TV show title per row.
   - Qualitative: `title`, `type` (Movie/TV Show).
   - Quantitative: `release_year`.
   - Categorical: `rating` (TV-MA, PG-13).
-  "Analysis is limited to titles released up to 2021."
-  
+  ### Spot Check Findings:
+- **Categories:** Confirmed only 'Movie' and 'TV Show' exist (No typos found).
+- **Gaps:** Observed a massive spike in content starting around 2015, with very sparse data pre-1980.
+- **Anomalies:** Found 3 lines with Ratings listed as mins.
+## Day 3: Pivot Table Foundations
+- **Analysis:** Compared the volume of Movies vs. TV Shows.
+- **Key Finding:** Netflix has significantly more Movies than TV Shows (approx. 2:1 ratio).
+- **Tool Used:** Excel Pivot Tables (Rows: Type, Values: Count of Title).
+- **Data Quality Note:** Found that some release years have very few entries, suggesting the dataset might be truncated or filtered.
