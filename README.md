@@ -16,3 +16,5 @@ The granularity of this dataset is one movie/TV show title per row.
   - Qualitative: `title`, `type` (Movie/TV Show).
   - Quantitative: `release_year`.
   - Categorical: `rating` (TV-MA, PG-13).
+  "Analysis is limited to titles released up to 2021."
+  
