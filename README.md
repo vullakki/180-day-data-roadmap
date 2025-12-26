@@ -25,3 +25,9 @@ The granularity of this dataset is one movie/TV show title per row.
 - **Key Finding:** Netflix has significantly more Movies than TV Shows (approx. 2:1 ratio).
 - **Tool Used:** Excel Pivot Tables (Rows: Type, Values: Count of Title).
 - **Data Quality Note:** Found that some release years have very few entries, suggesting the dataset might be truncated or filtered.
+## Day 4: Market & Content Strategy Analysis
+- **Top Markets:** Identified USA, India, and UK as the primary content producers.
+- **Content Personality:** - **India:** Strongly skewed toward TV-14 (General Audience).
+    - **USA/UK:** Heavy focus on TV-MA (Mature/Adult) content.
+- **Visuals:** Created a Stacked Bar Chart to compare rating distributions across top countries.
+- **Business Insight:** If Netflix wants to expand into the "Family" market in the UK, there is a clear content gap compared to the US library.
