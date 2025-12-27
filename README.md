@@ -31,3 +31,8 @@ The granularity of this dataset is one movie/TV show title per row.
     - **USA/UK:** Heavy focus on TV-MA (Mature/Adult) content.
 - **Visuals:** Created a Stacked Bar Chart to compare rating distributions across top countries.
 - **Business Insight:** If Netflix wants to expand into the "Family" market in the UK, there is a clear content gap compared to the US library.
+## Day 5: Data Categorization & Consolidation
+- **Technique:** Used Pivot Table "Manual Grouping" to simplify 14 ratings into 3 categories (Family, Teen, Adult).
+- **Metric Shift:** Converted raw counts to '% of Column Total' to see the relative share of content types.
+- **Discovery:** In the US market, 'Adult' content accounts for X% of the library, while 'Family' content is only Y%.
+- **Skill:** Learned to handle categorical data without complex nested IF statements.
